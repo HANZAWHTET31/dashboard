@@ -11,7 +11,7 @@
     <title>Dashboard</title>
 </head>
 <body>
-    <header class="navbar navbar-danger bg-warning navbar-expand-lg">
+    <header class="navbar bg-warning navbar-expand-lg m-0">
         <div class="container">
             <h1 class="navbar-brand">Dashboard</h1>
 
@@ -52,8 +52,124 @@
             </nav>
         </div>
     </header>
-    <nav></nav>
-    <main></main>
-    <footer></footer>
+
+    <main class="row m-0">
+        <nav class="col-3 bg-light p-4">
+            <div class="list-group text-center">
+                <h3 class="list-group-item list-group-item-action active">Menu</h3>
+                <li class="list-group-item list-group-item-action"><a href="">Local</a></li>
+                <li class="list-group-item list-group-item-action"><a href="">Network</a></li>
+                <li class="list-group-item list-group-item-action"><a href="">Privacy</a></li>
+                <li class="list-group-item list-group-item-action"><a href="">Security</a></li>
+            </div>
+            <br>
+            <div class="list-group text-center">
+                <h3 class="list-group-item list-group-item-action active">Actions</h3>
+                <li class="list-group-item list-group-item-action"><a href="">Action 1</a></li>
+                <li class="list-group-item list-group-item-action"><a href="">Action 2</a></li>
+                <li class="list-group-item list-group-item-action"><a href="">Action 3</a></li>
+                <li class="list-group-item list-group-item-action"><a href="">Action 4</a></li>
+            </div>
+        </nav>
+        <section class="col-9">
+            <div class="row p-3">
+                <div class="alert alert-warning">
+                    !!! Cautions! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, ipsa.
+                </div>
+            </div>
+            <div class="row p-2">
+                <h3>QUICK STATS</h3>
+
+                <div class="card col m-2">
+                    <div class="card-body">
+                        <h3 class="card-title">34785</h3>
+                        <span>Home Users <i class="fas fa-chart-bar"></i></span>
+                    </div>
+                </div>
+                <div class="card col m-2">
+                    <div class="card-body">
+                        <h3 class="card-title">654677</h3>
+                        <span>Local Users <i class="fas fa-chart-bar"></i></span>
+                    </div>
+                </div>
+                <div class="card col m-2">
+                    <div class="card-body">
+                        <h3 class="card-title">467323</h3>
+                        <span>Region Users <i class="fas fa-chart-bar"></i></span>
+                    </div> 
+                </div>
+                <div class="card col m-2">
+                    <div class="card-body">
+                        <h3 class="card-title">687422</h3>
+                        <span>International Users <i class="fas fa-chart-bar"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row p-2">
+                <h3>Locations</h3>
+
+                <div class="card col m-2">
+                    <div class="card-body">
+                        <h5>Local</h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-info w-25"></div>
+                        </div>
+                        <h5>Region</h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-info w-50"></div>
+                        </div>
+                        <h5>Nation</h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-info w-75"></div>
+                        </div>
+                        <h5>Internation</h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-info w-50"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col m-2">
+                    <table class="table">
+                        <thead>
+                            <th>ID</th>
+                            <th>Age Group</th>
+                            <th>Data</th>
+                            <th>Progress</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>20-30</td>
+                                <td><i class="fas fa-ghost"></i></td>
+                                <td>39%</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>30-45</td>
+                                <td><i class="fas fa-folder"></i></td>
+                                <td>45%</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>45-55</td>
+                                <td><i class="fas fa-car"></i></td>
+                                <td>34%</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>55-70</td>
+                                <td><i class="fas fa-house"></i></td>
+                                <td>70%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-warning text-center p-2">
+        <span>2023 Alrights Reserved bla blal blaalaa laa</span>
+    </footer>
 </body>
 </html>
