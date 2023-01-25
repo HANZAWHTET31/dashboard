@@ -12,28 +12,30 @@
 </head>
 <body>
     <header class="navbar bg-warning navbar-expand-lg m-0">
-        <div class="container">
-            <h1 class="navbar-brand">Dashboard</h1>
+        <div class="container-fluid">
+            <div class="navbar-brand mx-5">
+                <h1><i class="fas fa-ghost"></i> Dashboard</h1>
+            </div>
 
             <nav class="navbar-nav">
-                <div class="nav-item">
-                    <a href="#" class="nav-link">Home</a>
-                </div>
+                <span class="nav-item">
+                    <a href="#" class="nav-link"><i class="fas fa-house"></i> Home</a>
+                </span>
 
-                <div class="nav-item">
-                    <a href="#" class="nav-link">Products</a>
-                </div>
+                <span class="nav-item">
+                    <a href="#" class="nav-link"><i class="fas fa-warehouse"></i> Products</a>
+                </span>
 
-                <div class="nav-item">
-                    <a href="#" class="nav-link">Feature</a>
-                </div>
+                <span class="nav-item">
+                    <a href="#" class="nav-link"><i class="fas fa-project-diagram"></i> Feature</a>
+                </span>
 
-                <div class="nav-item">
-                    <a href="#" class="nav-link">About</a>
-                </div>
+                <span class="nav-item">
+                    <a href="#" class="nav-link"><i class="fas fa-address-card"></i> About</a>
+                </span>
 
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Options</a>
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fas fa-cogs"></i> Options</a>
                     <ul class="dropdown-menu">
                         <li class="dropdown-item">
                             <a href="#" class="dropdown-link">Option 1</a>
@@ -56,27 +58,34 @@
     <main class="row m-0">
         <nav class="col-3 bg-light p-4">
             <div class="list-group text-center">
-                <h3 class="list-group-item list-group-item-action active">Menu</h3>
-                <li class="list-group-item list-group-item-action"><a href="">Local</a></li>
-                <li class="list-group-item list-group-item-action"><a href="">Network</a></li>
-                <li class="list-group-item list-group-item-action"><a href="">Privacy</a></li>
-                <li class="list-group-item list-group-item-action"><a href="">Security</a></li>
+                <h3 class="list-group-item list-group-item-action active">Menu <i class="fas fa-folder"></i></h3>
+                <span class="list-group-item list-group-item-action"><a href="#" class="link-dark">Local</a></span>
+                <span class="list-group-item list-group-item-action"><a href="#" class="link-dark">Network</a></span>
+                <span class="list-group-item list-group-item-action"><a href="#" class="link-dark">Privacy</a></span>
+                <span class="list-group-item list-group-item-action"><a href="#" class="link-dark">Security</a></span>
             </div>
             <br>
             <div class="list-group text-center">
-                <h3 class="list-group-item list-group-item-action active">Actions</h3>
-                <li class="list-group-item list-group-item-action"><a href="">Action 1</a></li>
-                <li class="list-group-item list-group-item-action"><a href="">Action 2</a></li>
-                <li class="list-group-item list-group-item-action"><a href="">Action 3</a></li>
-                <li class="list-group-item list-group-item-action"><a href="">Action 4</a></li>
+                <h3 class="list-group-item list-group-item-action active">Actions <i class="fas fa-add"></i></h3>
+                <span class="list-group-item list-group-item-action"><a href="#">Action 1</a></span>
+                <span class="list-group-item list-group-item-action"><a href="#">Action 2</a></span>
+                <span class="list-group-item list-group-item-action"><a href="#">Action 3</a></span>
+                <span class="list-group-item list-group-item-action"><a href="#">Action 4</a></span>
+            </div>
+            <br>
+            <div class="text-center mt-2">
+                <span class="alert alert-danger">
+                    Lorem ipsum dolor sit amet.
+                </span>
             </div>
         </nav>
         <section class="col-9">
-            <div class="row p-3">
+            <div class="row mt-3">
                 <div class="alert alert-warning">
                     !!! Cautions! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, ipsa.
                 </div>
             </div>
+            <hr>
             <div class="row p-2">
                 <h3>QUICK STATS</h3>
 
@@ -105,31 +114,37 @@
                     </div>
                 </div>
             </div>
+            <hr>
             <div class="row p-2">
-                <h3>Locations</h3>
-
-                <div class="card col m-2">
-                    <div class="card-body">
-                        <h5>Local</h5>
-                        <div class="progress">
-                            <div class="progress-bar bg-info w-25"></div>
-                        </div>
-                        <h5>Region</h5>
-                        <div class="progress">
-                            <div class="progress-bar bg-info w-50"></div>
-                        </div>
-                        <h5>Nation</h5>
-                        <div class="progress">
-                            <div class="progress-bar bg-info w-75"></div>
-                        </div>
-                        <h5>Internation</h5>
-                        <div class="progress">
-                            <div class="progress-bar bg-info w-50"></div>
+                <div class="col">
+                    <h3>Locations</h3>
+                    
+                    <div class="card m-2">
+                        <div class="card-body">
+                            <h5>Local</h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-info w-25"></div>
+                            </div>
+                            <h5>Region</h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-info w-50"></div>
+                            </div>
+                            <h5>Nation</h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-info w-75"></div>
+                            </div>
+                            <h5>Internation</h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-info w-50"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="card col m-2">
-                    <table class="table">
+                
+                <div class="col">
+                    <h3>Progress</h3>
+                    
+                    <table class="table table-bordered table-hover table-group-divider">
                         <thead>
                             <th>ID</th>
                             <th>Age Group</th>
@@ -169,7 +184,7 @@
     </main>
 
     <footer class="bg-warning text-center p-2">
-        <span>2023 Alrights Reserved bla blal blaalaa laa</span>
+        <span>2023 Alrights Reserved bla blal blaalaa laa@@@##$$</span>
     </footer>
 </body>
 </html>
